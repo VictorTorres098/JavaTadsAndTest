@@ -19,8 +19,6 @@ public class Main {
 		Diccionario<Integer, Alumno> dicAlum = new Diccionario<>();
 		
 		testDic.insertar("victor ", 23);
-		testDic.insertar("Ariana ", 21);
-		testDic.insertar("Amor por Ella ", 2147483647);
 		
 		//System.out.println(testDic.size());
 		
