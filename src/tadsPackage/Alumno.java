@@ -38,7 +38,7 @@ public class Alumno {
 	public void setPromedio(Integer promedio) {
 		this.promedio = promedio;
 	}
-	public Integer tamañoListaMaterias() {
+	public Integer tamaListaMaterias() {
 		return listaMaterias.size();
 	}
 	public String agregarlistaMateriasNotas(String materia, Integer nota) {

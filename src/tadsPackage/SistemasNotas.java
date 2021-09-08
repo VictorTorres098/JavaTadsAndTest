@@ -35,7 +35,7 @@ public class SistemasNotas<T1, T2> {
 		return lista.elemento(libreta).y.sumarNota(nota);
 	}
 	public Integer promedio(Integer libreta) {
-		return lista.elemento(libreta).y.getPromedio() / lista.elemento(libreta).y.tamañoListaMaterias();
+		return lista.elemento(libreta).y.getPromedio() / lista.elemento(libreta).y.tamaListaMaterias();
 	}
 	public String ingresarListaMN(Integer libreta,String materia, Integer nota) {
 		return lista.elemento(libreta).y.agregarlistaMateriasNotas(materia, nota);
